@@ -18,7 +18,7 @@
             <label>Username: </label>
             <input type="text" name="username" value="${username}"><br>
             <label>Password: </label>
-            <input type="text" name="password" value="${password}"><br>
+            <input type="password" name="password" value="${password}"><br>
             <input type="submit" name="submit" value="Log in"><br>
             <c:if test="${LogOut}">
                 <p>You have successfully logged out.</p>

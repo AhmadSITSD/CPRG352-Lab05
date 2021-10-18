@@ -12,6 +12,13 @@
         <title>login</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Login</h1>
+        <form action="login" method="POST">
+            <label>Username: </label>
+            <input type="text" name="username" value=""><br>
+            <label>Password: </label>
+            <input type="text" name="password" value=""><br>
+            <input type="submit" name="submit" value="Log in">
+        </form>
     </body>
 </html>
